@@ -379,7 +379,7 @@ bot.onText(/\/start/, (msg) => {
 > /terbang`,
     reply_markup: {
       inline_keyboard: [
-        [{ text: "👤 Owner", url: "https://t.me/jay" }, { text: "👀Info", url: "https://t.me/jay" }]
+        [{ text: "👤 Owner", url: "https://t.me/Realwisdomfx001" }, { text: "👀Info", url: "https://t.me/Realwisdomfx001" }]
       ]
     }
   });
@@ -396,8 +396,8 @@ if (!premiumUsers.some(user => user.id === senderId && new Date(user.expiresAt) 
         caption: "❌ KAMU BUKAN USER PREMIUM SILAHKAN BELI ACCES PREMIUM DENGAN CARA KLIK TOMBOL BUY ACCES DIBAWAH",
         reply_markup: {
             inline_keyboard: [
-                [{ text: "👤 𝘖𝘸𝘯𝘦𝘳", url: "https://t.me/Killertzy2" }, { text: "👁️ 𝘐𝘯𝘧𝘰", url: "https://t.me/Killertzy2" }],
-                [{ text: "📞 𝘉𝘶𝘺 𝘈𝘤𝘤𝘦𝘴", url: "https://t.me/Killertzy2" }]
+                [{ text: "👤 𝘖𝘸𝘯𝘦𝘳", url: "https://t.me/Realwisdomfx001" }, { text: "👁️ 𝘐𝘯𝘧𝘰", url: "https://t.me/Realwisdomfx001" }],
+                [{ text: "📞 𝘉𝘶𝘺 𝘈𝘤𝘤𝘦𝘴", url: "https://t.me/Realwisdomfx001" }]
             ]
         }
     };
@@ -407,11 +407,12 @@ if (!premiumUsers.some(user => user.id === senderId && new Date(user.expiresAt) 
 
   bot.sendVideo(chatId, "https://files.catbox.moe/zro4z1.jpg", {  
     caption: `
-╭━─━( SPACEMAN THUNDER 𖣘
-┃ ▢ Developer : Killertzy
-┃ ▢ Version : Beta
-┃ ▢ Language : Javascript 
-╰━─━━─━━─━━─━━─━━─━━━─━✦
+╔─═⊱  ᕼYᗞᖇᗩ Hydra V1.5  ─═⬡
+║© 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : W I S D O M  F X
+│© 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.5
+║© 𝗢𝘀 : 𝗟𝗶𝗻𝘂𝘅
+│© 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺
+┗━━━━━━━━━━━━━━━⬡
 
 ☍ 𝘴𝘦𝘭𝘦𝘤𝘵 𝘵𝘩𝘦 𝘣𝘶𝘵𝘵𝘰𝘯 𝘮𝘦𝘯𝘶 𝘣𝘦𝘭𝘰𝘸`,
     reply_markup: {
@@ -430,11 +431,12 @@ if (!premiumUsers.some(user => user.id === senderId && new Date(user.expiresAt) 
 
       if (data === "bugmenu") {
         newCaption = `
-╭━─━( SPACEMAN THUNDER 𖣘
-┃ ▢ Developer : Killertzy
-┃ ▢ Version : Beta
-┃ ▢ Language : Javascript 
-╰━─━━─━━─━━─━━─━━─━━━─━✦
+╔─═⊱  ᕼYᗞᖇᗩ Hydra V1.5  ─═⬡
+║© 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : W I S D O M  F X
+│© 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.5
+║© 𝗢𝘀 : 𝗟𝗶𝗻𝘂𝘅
+│© 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺
+┗━━━━━━━━━━━━━━━⬡
 
 ╭━─━☉
 ║ ▢ /spaceman 62xxx ( bug menu button )
@@ -445,11 +447,12 @@ if (!premiumUsers.some(user => user.id === senderId && new Date(user.expiresAt) 
         ];
       } else if (data === "ownermenu") {
         newCaption = `
-╭━─━( SPACEMAN THUNDER 𖣘
-┃ ▢ Developer : Killertzy
-┃ ▢ Version : Beta
-┃ ▢ Language : Javascript 
-╰━─━━─━━─━━─━━─━━─━━━─━✦
+╔─═⊱  ᕼYᗞᖇᗩ Hydra V1.5  ─═⬡
+║© 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : W I S D O M  F X
+│© 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.5
+║© 𝗢𝘀 : 𝗟𝗶𝗻𝘂𝘅
+│© 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺
+┗━━━━━━━━━━━━━━━⬡
 
 ╭━─━✦
 ┃▢ /addprem ( id ) ( 3d )
@@ -462,16 +465,16 @@ if (!premiumUsers.some(user => user.id === senderId && new Date(user.expiresAt) 
         ];
       } else if (data === "thanksto") {
         newCaption = `
-╭━─━( SPACEMAN THUNDER 𖣘
-┃ ▢ Developer : Killertzy
-┃ ▢ Version : Beta
-┃ ▢ Language : Javascript 
-╰━─━━─━━─━━─━━─━━─━━━─━✦
+╔─═⊱  ᕼYᗞᖇᗩ Hydra V1.5  ─═⬡
+║© 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : W I S D O M  F X
+│© 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.5
+║© 𝗢𝘀 : 𝗟𝗶𝗻𝘂𝘅
+│© 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺
+┗━━━━━━━━━━━━━━━⬡
 
 
 ╭━─━☉
-║ ▢ Killertzy ( ᴅᴇᴠᴇʟᴏᴘᴇʀ )
-║ ▢ All Buyer Spaceman💞
+║ ▢ W I S D O M  F X ( ᴅᴇᴠᴇʟᴏᴘᴇʀ )
 ╰━─━━─━━─━━─━━─━━─━━━─━⍟
 `;
         newButtons = [
@@ -479,11 +482,12 @@ if (!premiumUsers.some(user => user.id === senderId && new Date(user.expiresAt) 
         ];
       } else if (data === "controlmenu") {
         newCaption = `
-╭━─━( SPACEMAN THUNDER 𖣘
-┃ ▢ Developer : Killertzy
-┃ ▢ Version : Beta
-┃ ▢ Language : Javascript 
-╰━─━━─━━─━━─━━─━━─━━━─━✦
+╔─═⊱  ᕼYᗞᖇᗩ Hydra V1.5  ─═⬡
+║© 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : W I S D O M  F X
+│© 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.5
+║© 𝗢𝘀 : 𝗟𝗶𝗻𝘂𝘅
+│© 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺
+┗━━━━━━━━━━━━━━━⬡
 
 ╭━─━✦
 ┃ ▢ /listprem
@@ -498,11 +502,12 @@ if (!premiumUsers.some(user => user.id === senderId && new Date(user.expiresAt) 
         ];
       } else if (data === "mainmenu") {
         newCaption = `
-╭━─━( SPACEMAN THUNDER 𖣘
-┃ ▢ Developer : Killertzy
-┃ ▢ Version : Beta
-┃ ▢ Language : Javascript 
-╰━─━━─━━─━━─━━─━━─━━━─━✦
+╔─═⊱  ᕼYᗞᖇᗩ Hydra V1.5  ─═⬡
+║© 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : W I S D O M  F X
+│© 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.5
+║© 𝗢𝘀 : 𝗟𝗶𝗻𝘂𝘅
+│© 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺
+┗━━━━━━━━━━━━━━━⬡
 ☍ 𝘴𝘦𝘭𝘦𝘤𝘵 𝘵𝘩𝘦 𝘣𝘶𝘵𝘵𝘰𝘯 𝘮𝘦𝘯𝘶 𝘣𝘦𝘭𝘰𝘸`;
         newButtons = [
           [{ text: "[🦠] 𝘉𝘶𝘨 𝘔𝘦𝘯𝘶", callback_data: "bugmenu" }, { text: "[👤] 𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶", callback_data: "ownermenu" }],
